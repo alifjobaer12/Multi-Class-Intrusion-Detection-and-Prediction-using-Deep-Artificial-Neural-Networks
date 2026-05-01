@@ -1,13 +1,25 @@
-# CICIDS2017 Multi-Class Intrusion Detection (ANN)
+# CICIDS2017 Multi-Class Intrusion Detection
 
 Production-ready implementation of a multi-class network intrusion detection model trained on CICIDS2017 traffic data using a deep Artificial Neural Network (ANN) in TensorFlow/Keras.
+
+## Overview
+
+This repository contains the code, trained artifacts, and supporting documentation for a CICIDS2017-based intrusion detection model. The project focuses on classifying benign traffic and multiple attack categories from flow-based network features.
+
+## Dataset Source
+
+The dataset used in this project is the CICIDS2017 collection from Kaggle:
+
+- Kaggle dataset: [CIC-IDS-2017](https://www.kaggle.com/datasets/chethuhn/network-intrusion-dataset)
+
+Use this source if you need to download the original dataset or cite the dataset location in reports and presentations.
 
 ## Research Paper
 
 This project is accompanied by a research paper documenting the problem statement, methodology, and results.
 
-- Title: Research Paper on Multi-Class Intrusion Detection and Prediction using Deep Artificial
-- Local file: [Research Paper on Multi-Class Intrusion Detection and Prediction using Deep Artificial.pdf](Research%20Paper%20on%20Multi-Class%20Intrusion%20Detection%20and%20Prediction%20using%20Deep%20Artificial.pdf)
+- Title: Multi-Class Intrusion Detection and Prediction using Deep Artificial Neural Networks
+- Local file: [Multi-Class Intrusion Detection and Prediction using Deep Artificial Neural Networks.pdf](Multi-Class%20Intrusion%20Detection%20and%20Prediction%20using%20Deep%20Artificial%20Neural%20Networks.pdf)
 
 Use this paper as the primary academic reference when citing this project in reports, presentations, or publications.
 
@@ -15,9 +27,9 @@ Use this paper as the primary academic reference when citing this project in rep
 
 - Multi-class attack classification across 15 traffic classes.
 - End-to-end training pipeline: load, clean, rebalance, scale, train, evaluate, and persist artifacts.
-- Strong benchmark results already included in repository artifacts.
-- Includes saved model, scaler, label encoder, confusion matrix, and training/ROC visualizations.
+- Saved model, scaler, label encoder, confusion matrix, and training/ROC visualizations are already included.
 - Notebook and Python script versions are both available.
+- Clean project structure for local development and reproducible evaluation.
 
 ## Project Scope
 
@@ -221,7 +233,7 @@ Current repository is strong for research/demo. For stricter production maturity
 
 Includes supporting reference document:
 
-- [Research Paper on Multi-Class Intrusion Detection and Prediction using Deep Artificial.pdf](Research%20Paper%20on%20Multi-Class%20Intrusion%20Detection%20and%20Prediction%20using%20Deep%20Artificial.pdf)
+- [Multi-Class Intrusion Detection and Prediction using Deep Artificial Neural Networks.pdf](Multi-Class%20Intrusion%20Detection%20and%20Prediction%20using%20Deep%20Artificial%20Neural%20Networks.pdf)
 
 If you use this repository or model in academic work, cite both:
 
@@ -231,7 +243,7 @@ If you use this repository or model in academic work, cite both:
 Suggested citation format:
 
 ```text
-Author(s). "Research Paper on Multi-Class Intrusion Detection and Prediction using Deep Artificial."
+Author(s). "Multi-Class Intrusion Detection and Prediction using Deep Artificial Neural Networks."
 Institution/Department, Year.
 ```
 
